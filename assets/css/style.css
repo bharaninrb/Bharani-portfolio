@@ -863,11 +863,7 @@ section {
 
 .icon-box-Figma:hover {
   border-color: #fff;
-  box-shadow: -7.5px -7.5px 7.5px 0 rgba(230, 74, 25, 0.1),
-    /* Top-left corner: #E64A19 with 25% opacity */ 7.5px -7.5px 7.5px 0 rgba(124, 77, 255, 0.1),
-    /* Top-right corner: #7C4DFF with 25% opacity */ -7.5px 7.5px 7.5px 0 rgba(102, 187, 106, 0.1),
-    /* Bottom-left corner: #66BB6A with 25% opacity */ 7.5px 7.5px 7.5px 0
-      rgba(41, 182, 246, 0.1); /* Bottom-right corner: #29B6F6 with 25% opacity */
+  box-shadow: 0px 0 35px 0 rgba(102, 187, 106, 0.25);
 }
 
 .icon-box-AdobeXD:hover {
