@@ -1184,18 +1184,16 @@
 
             <div class="col-lg-8 mt-5 mt-lg-0">
               <form
+                class="contact-email-form"
                 action="https://api.web3forms.com/submit"
                 method="POST"
-                class="php-email-form"
               >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="56fbead8-9939-4d80-b118-094010d1ab97"
+                />
                 <div class="row">
-                  <input
-                    class="form-control"
-                    type="hidden"
-                    name="access_key"
-                    value="56fbead8-9939-4d80-b118-094010d1ab97"
-                  />
-
                   <div class="col-md-6 w-100 form-group mt-3 mt-md-0">
                     <input
                       class="form-control"
@@ -1225,8 +1223,7 @@
                 </div>
 
                 <div class="text-center mt-3">
-                  <!-- <button type="submit">Send Message</button> -->
-                  <button>
+                  <button type="submit">
                     <div class="svg-wrapper-1">
                       <div class="svg-wrapper">
                         <svg
@@ -1247,6 +1244,69 @@
                   </button>
                 </div>
               </form>
+              <!-- <form
+              className="contact-form pt-24 "
+              action="https://api.web3forms.com/submit"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="56fbead8-9939-4d80-b118-094010d1ab97"
+              />
+              <div className="flex flex-col items-start ml-20 justify-center gap-4 text-slate-950">
+                <h1 className="text-5xl mb-6">Contact</h1>
+                <div className="mb-3 flex flex-col gap-4 ">
+                  <label htmlFor="exampleInputPassword1" className="form-label">
+                    Your Name
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    className="form-control form-control-lg bg-white w-96 h-10 pl-2 rounded"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div className="mb-3 flex flex-col gap-4 ">
+                  <label htmlFor="exampleInputEmail1" className="form-label">
+                    Email address
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    className="form-control form-control-lg bg-white w-96 h-10 pl-2 rounded"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div className="mb-3 flex flex-col gap-4 ">
+                  <label htmlFor="exampleInputPassword1" className="form-label">
+                    Your Message
+                  </label>
+                  <textarea
+                    name="message"
+                    rows={4}
+                    className="form-control form-control-lg bg-white w-96 h-20 pl-2 pt-1 rounded"
+                  ></textarea>
+                </div>
+                <div className="flex gap-12 ">
+                  <button
+                    type="submit"
+                    className="mt-4 custom-btn form-btn !bg-[#E162A0]"
+                  >
+                    Submit
+                  </button>
+                  <Link to="/">
+                    <button
+                      type="button"
+                      className="mt-4 custom-btn form-btn !bg-[#B89FB2]"
+                    >
+                      Go Back
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </form> -->
             </div>
           </div>
         </div>
