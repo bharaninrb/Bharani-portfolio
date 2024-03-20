@@ -287,7 +287,7 @@ h6 {
 }
 
 #hero h1 {
-  margin: 20;
+  margin: 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -1164,7 +1164,7 @@ section {
 .contact .contact-email-form button[type="submit"] {
   background: #05bb05;
   border: 0;
-  padding: 10px 35px;
+  padding: 15px 30px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
