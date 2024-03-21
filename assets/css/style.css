@@ -1431,11 +1431,14 @@ button:active {
   transform: scale(0.95);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .cssbuttons-io-button {
     width: 100%;
     align-items: center;
-    max-width: 300px;
+    max-width: 225px;
     font-size: 15px;
+  }
+  .hero {
+    align-items: start !important;
   }
 }
