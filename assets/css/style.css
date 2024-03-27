@@ -1442,3 +1442,7 @@ button:active {
     align-items: start !important;
   }
 }
+
+iframe {
+  background-color: #000000 !important;
+}
