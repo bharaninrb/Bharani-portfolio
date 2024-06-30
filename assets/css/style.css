@@ -3,9 +3,9 @@
 --------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   color: #ffffff;
   background-color: #121212;
 }
@@ -411,7 +411,8 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  width: 850px;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
@@ -487,9 +488,9 @@ section {
   border-radius: 10px;
 }
 
-.facts .count-box i {
+.facts .count-box svg {
   font-size: 32px;
-  color: #fff;
+  fill: #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -525,32 +526,30 @@ section {
   width: 100%;
   position: relative;
   text-align: start;
-  background: #222121;
   border-radius: 10px;
   border-bottom: 2px solid transparent;
-  transition-delay: 300ms;
+  /* transition-delay: 300ms;
   transition: background 0.3s ease, border-color 0.3s ease,
-    backdrop-filter 0.3s ease;
+    backdrop-filter 0.3s ease; */
 }
 
-.service-box:hover {
+/* .service-box:hover {
   background: linear-gradient(129deg, rgb(33, 37, 41) 0%, rgb(52, 58, 64) 205%);
   -webkit-backdrop-filter: blur(4px) brightness(100%);
   backdrop-filter: blur(4px) brightness(100%);
   border-bottom: 2px solid;
   border-color: transparent;
   border-image: radial-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)) 1;
-}
+} */
 
 .service-row {
   width: 100%;
 }
 
 .service-icon {
-  color: #fff;
-
-  width: 32px;
-  height: 32px;
+  color: #868e96;
+  width: 44px;
+  height: 44px;
   text-align: start;
 }
 
@@ -559,13 +558,14 @@ section {
 }
 
 .service-header {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 21px;
+  font-weight: 500;
 }
 
 .service-para {
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 16px;
+  color: #adb5bd;
 }
 /*--------------------------------------------------------------
 # Akills
@@ -961,8 +961,9 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #2a2a2a;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  border-radius: 30px;
 }
 
 .services .icon-box .icon {
@@ -1000,7 +1001,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #45505b;
+  color: #ffffff;
   transition: ease-in-out 0.3s;
 }
 
@@ -1200,7 +1201,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #121212;
 }
 
 .contact .info i {
@@ -1244,9 +1245,13 @@ section {
   color: #fff;
 }
 
+.form-control {
+  background: #eef7ff;
+}
+
 .contact .contact-email-form {
   width: 100%;
-  background: #fff;
+  background: #121212;
 }
 
 .contact .contact-email-form .form-group {
@@ -1395,8 +1400,8 @@ button:active {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #353535;
+  background: #121212;
+  color: #fff;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1425,7 +1430,7 @@ button:active {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #000000;
+  background: #2a2a2a;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1578,4 +1583,12 @@ button:active {
 
 iframe {
   background-color: #000000 !important;
+}
+
+.exp-info {
+  font-weight: 200;
+}
+
+.credit {
+  margin-left: 10px;
 }
