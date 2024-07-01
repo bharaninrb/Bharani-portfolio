@@ -375,7 +375,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .section-title h2 {
@@ -637,6 +637,7 @@ section {
 
 .experience:hover {
   border-bottom: 2px solid;
+  border-radius: 30px;
   border-color: transparent;
   border-image: radial-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)) 1;
 }

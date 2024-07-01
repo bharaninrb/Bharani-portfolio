@@ -414,7 +414,34 @@ body {
   padding: var(--padding-41xl) var(--padding-21xl);
   box-sizing: border-box;
   position: relative;
-  border: 1px solid #343a40;
+  border: 2px solid #343a40;
+  transition: 0.3s ease; /* Smooth transition */
+}
+
+.background2:hover {
+  background: linear-gradient(324.05deg, #212529, #343a40);
+}
+
+.background2::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 1.15px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: var(--br-11xl);
+}
+
+.background2:hover::after {
+  opacity: 10;
 }
 
 .div {
@@ -488,7 +515,7 @@ body {
   width: 314px;
   box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.06) inset;
   border-radius: 16px;
-  background-color: #1b1b1b;
+  background: linear-gradient(124.05deg, #212529, #343a40);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -496,7 +523,36 @@ body {
   padding: 40px 44px;
   box-sizing: border-box;
   max-width: 314px;
+  position: relative; /* Needed for the ::after pseudo-element */
+  transition: 2s ease-in-out; /* Slower transition */
 }
+
+.backgroundshadow:hover {
+  background: linear-gradient(324.05deg, #212529, #343a40);
+}
+
+.backgroundshadow::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 2px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 16px;
+}
+
+.backgroundshadow:hover::after {
+  opacity: 1;
+}
+
 .container9 {
   align-self: stretch;
   display: flex;
