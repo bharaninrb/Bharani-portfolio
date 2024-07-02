@@ -466,13 +466,14 @@ section {
 }
 
 .about-text {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 300;
   line-height: 48px;
 }
 
 .position {
-  font-weight: 700;
+  font-weight: 600;
+  font-style: normal;
 }
 
 /*--------------------------------------------------------------
@@ -656,7 +657,6 @@ section {
 .exp-line {
   background-color: white;
   opacity: 1;
-  user-select: auto;
   height: 118px;
   width: 1px;
   margin: 0 auto;
@@ -1203,7 +1203,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #121212;
+  background: #12121200;
 }
 
 .contact .info i {
@@ -1253,7 +1253,7 @@ section {
 
 .contact .contact-email-form {
   width: 100%;
-  background: #121212;
+  background: #12121200;
 }
 
 .contact .contact-email-form .form-group {
@@ -1402,11 +1402,11 @@ button:active {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #121212;
+  background: #272d33;
   color: #fff;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 #footer h3 {
