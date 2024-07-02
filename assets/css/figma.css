@@ -402,6 +402,12 @@ body {
   justify-content: center;
   padding: var(--padding-3xs) var(--padding-3xs) var(--padding-21xl);
   gap: var(--gap-3xs);
+  box-shadow: 0 0 1px 1px rgb(52, 58, 64);
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.background8:hover {
+  box-shadow: 0 0 0.5px 0.5px rgb(96, 96, 96);
 }
 
 .projects-container {
@@ -509,10 +515,11 @@ body {
 }
 .satisfaction {
   align-self: stretch;
+  font-family: "poppins", sans-serif;
   position: relative;
   line-height: 24px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
 }
 .container5 {
   align-self: stretch;

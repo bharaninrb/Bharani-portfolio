@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -379,13 +379,13 @@ section {
 }
 
 .section-title h2 {
-  font-size: 44px;
-  font-weight: bold;
+  font-size: 45px;
+  font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 40px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #bb86fc;
 }
 
 .section-title h2::before {
@@ -466,9 +466,9 @@ section {
 }
 
 .about-text {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 48px;
+  line-height: 40px;
 }
 
 .position {
@@ -501,6 +501,7 @@ section {
 
 .facts .count-box span {
   font-size: 44px;
+  font-family: "poppins", sans-serif;
   display: block;
   font-weight: 600;
   color: #ffffff;
@@ -509,17 +510,22 @@ section {
 .facts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
 
 .count-info {
   display: flex;
+  font-family: "poppins", sans-serif;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
+
+/* ...........................................................
+#service
+........................................................... */
 
 .service-box {
   padding: 30px 30px;
@@ -559,8 +565,9 @@ section {
 }
 
 .service-header {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 
 .service-para {
