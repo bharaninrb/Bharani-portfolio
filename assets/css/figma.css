@@ -119,6 +119,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .container6 {
   display: flex;
   flex-direction: column;
@@ -297,6 +298,12 @@ body {
   position: relative;
 }
 
+.link3:hover img {
+  transform: scale(115%);
+  transition: all 0.5s ease-in-out;
+  transition-delay: 100ms;
+}
+
 .container65 {
   width: 386.7px;
   display: flex;
@@ -326,6 +333,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .n4eaodkaxpxyvkai5zff97gphapng-icon {
@@ -363,6 +371,8 @@ body {
   align-self: stretch;
   position: relative;
   line-height: 30px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .heading-22 {
@@ -411,15 +421,17 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-41xl) var(--padding-21xl);
+  padding: 60px 40px;
   box-sizing: border-box;
   position: relative;
   border: 2px solid #343a40;
-  transition: 0.3s ease; /* Smooth transition */
 }
 
 .background2:hover {
   background: linear-gradient(324.05deg, #212529, #343a40);
+  padding-top: 40px;
+  padding-bottom: 80px;
+  transition: all 0.7s ease; /* Smooth transition */
 }
 
 .background2::after {
