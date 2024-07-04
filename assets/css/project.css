@@ -79,6 +79,7 @@ body {
   position: relative;
   line-height: 32px;
   font-weight: 500;
+  font-size: 32px;
 }
 .container4 {
   align-self: stretch;
@@ -326,6 +327,7 @@ body {
   align-self: stretch;
   position: relative;
   line-height: 57px;
+  font-size: 28px;
 }
 .heading-3margin {
   align-self: stretch;
