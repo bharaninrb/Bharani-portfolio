@@ -412,7 +412,11 @@ section {
 
 .section-title p {
   width: 850px;
-  margin: 0 auto;
+  line-height: 30px;
+  margin: auto;
+  font-style: normal;
+  font-weight: 300;
+}
 }
 
 /*--------------------------------------------------------------
@@ -468,7 +472,10 @@ section {
 .about-text {
   font-size: 20px;
   font-weight: 300;
-  line-height: 40px;
+  margin-right: 130px;
+  text-align: center;
+  margin-left: 130px;
+  line-height: 45px;
 }
 
 .position {
