@@ -237,7 +237,7 @@ body {
   z-index: 0;
 }
 .container22 {
-  width: 200px;
+  width: 290px;
   height: 70px;
   display: flex;
   flex-direction: column;
@@ -270,7 +270,7 @@ body {
   justify-content: flex-start;
   padding: 40px;
   position: relative;
-  gap: 318px;
+  gap: 240px;
 }
 .container10 {
   flex: 1;
@@ -292,6 +292,12 @@ body {
 }
 .a-food-delivery {
   margin: 0;
+}
+
+.projecta-title {
+  position: relative;
+  line-height: 30px;
+  font-size: 40px;
 }
 .heading-2 {
   align-self: stretch;
@@ -339,7 +345,7 @@ body {
 }
 .container34 {
   width: 1100px;
-  height: 1034px;
+  height: 1190px;
   overflow: hidden;
   flex-shrink: 0;
   display: flex;
