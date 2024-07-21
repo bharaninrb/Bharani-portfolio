@@ -417,7 +417,6 @@ section {
   font-style: normal;
   font-weight: 300;
 }
-}
 
 /*--------------------------------------------------------------
 # About
@@ -1534,7 +1533,6 @@ button:active {
   color: white;
   margin-top: 25px;
   font-family: inherit;
-  width: 240px;
   padding: 0.35em;
   padding-left: 1.2em;
   font-size: 17px;
