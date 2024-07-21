@@ -378,6 +378,12 @@ section {
   padding-bottom: 60px;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-title {
+    padding-bottom: 0;
+  }
+}
+
 .section-title h2 {
   font-size: 45px;
   font-weight: 600;
@@ -410,12 +416,35 @@ section {
   left: calc(50% - 20px);
 }
 
+@media only screen and (max-width: 600px) {
+  .section-title h2 {
+    font-size: 25px; /* Adjust this value as needed */
+  }
+  .section-title p {
+    width: auto;
+    line-height: 20px;
+    font-size: 12px;
+  }
+}
+
 .section-title p {
   width: 850px;
   line-height: 30px;
   margin: auto;
   font-style: normal;
   font-weight: 300;
+}
+
+/* This will apply when the screen size is 600px or less */
+@media screen and (max-width: 600px) {
+  .section-title p {
+    width: 285px;
+    line-height: 20px;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -482,6 +511,27 @@ section {
   font-style: normal;
 }
 
+/* Hide the mobile text on larger screens */
+.about-text.mobile {
+  display: none;
+}
+
+/* Adjust the styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .about-text.desktop {
+    display: none;
+  }
+  .about-text.mobile {
+    display: block;
+  }
+
+  .about-text {
+    font-size: 14px;
+    line-height: 2;
+    margin: 0px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -528,10 +578,64 @@ section {
   justify-content: center;
   gap: 20px;
 }
+.Facts-text.desktop {
+  display: block;
+}
+
+.Facts-text.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .Facts-text.desktop {
+    display: none;
+  }
+  .Facts-text.mobile {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .Facts-text {
+    font-size: 14px;
+  }
+}
+.facts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.backgroundshadow {
+  flex: 1 0 21%; /* Adjust this value as needed */
+  margin: 10px;
+  transition: transform 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+.backgroundshadow:hover {
+  transform: scale(1.05); /* Add hover effect */
+}
+
+/* Adjust the styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .backgroundshadow {
+    flex: 1 0 100%; /* Make the boxes take the full width on small screens */
+  }
+}
 
 /* ...........................................................
 #service
 ........................................................... */
+
+/* Adjust the styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .service-row {
+    flex-direction: column; /* Stack the boxes vertically on small screens */
+  }
+
+  .service-box {
+    flex: 1 0 auto; /* Make the boxes take the full width on small screens */
+    margin: 5px;
+  }
+}
 
 .service-box {
   padding: 30px 30px;
@@ -541,22 +645,19 @@ section {
   text-align: start;
   border-radius: 10px;
   border-bottom: 2px solid transparent;
-  /* transition-delay: 300ms;
-  transition: background 0.3s ease, border-color 0.3s ease,
-    backdrop-filter 0.3s ease; */
+  flex: 1 0 21%; /* Adjust this value as needed */
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
-/* .service-box:hover {
-  background: linear-gradient(129deg, rgb(33, 37, 41) 0%, rgb(52, 58, 64) 205%);
-  -webkit-backdrop-filter: blur(4px) brightness(100%);
-  backdrop-filter: blur(4px) brightness(100%);
-  border-bottom: 2px solid;
-  border-color: transparent;
-  border-image: radial-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)) 1;
-} */
-
+.service-box:hover {
+  transform: scale(1.05); /* Add hover effect */
+}
 .service-row {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .service-icon {
@@ -564,6 +665,12 @@ section {
   width: 44px;
   height: 44px;
   text-align: start;
+}
+@media screen and (max-width: 768px) {
+  .service-icon {
+    width: 30px; /* Adjusted width for mobile devices */
+    height: 30px; /* Adjusted height for mobile devices */
+  }
 }
 
 .service-info {
@@ -581,6 +688,17 @@ section {
   font-size: 16px;
   color: #adb5bd;
 }
+
+@media screen and (max-width: 768px) {
+  .service-header {
+    font-size: 16px; /* Adjusted font size for mobile devices */
+  }
+
+  .service-para {
+    font-size: 14px; /* Adjusted font size for mobile devices */
+  }
+}
+
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
