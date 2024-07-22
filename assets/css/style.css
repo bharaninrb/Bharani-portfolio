@@ -447,6 +447,17 @@ section {
   }
 }
 
+@media screen and (max-width: 420px) {
+  .section-title p {
+    width: 230px;
+    line-height: 20px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+  }
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -742,6 +753,15 @@ section {
   transition: transform 0.3s ease-in-out;
 }
 
+@media (max-width: 600px) {
+  .skills .progress .skill {
+    font-size: 12px;
+  }
+  .skills-content {
+    margin-top: 32px;
+  }
+}
+
 /* .icon-box {
 } */
 
@@ -783,6 +803,20 @@ section {
 .experience-place {
   background-color: rgb(33, 37, 41);
   padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .experience {
+    width: 100%;
+    padding: 18px;
+  }
+  .experience-place {
+    padding: 5px;
+  }
+  .experience-header {
+    flex-direction: column;
+    align-items: start;
+  }
 }
 
 .exp-line {
@@ -1015,6 +1049,21 @@ section {
   right: 15px;
 }
 
+@media (max-width: 768px) {
+  .portfolio .portfolio-wrap .portfolio-info h4 {
+    font-size: 18px;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-info p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 420px) {
+  .portfolio-section {
+    padding: 12px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1244,6 +1293,15 @@ section {
 
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
+}
+
+@media (max-width: 768px) {
+  .tools-container {
+    padding: 12px;
+  }
+  .services .icon-box {
+    padding: 40px 20px 50px 20px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1587,6 +1645,12 @@ button:active {
 
 #footer .credits {
   font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  #footer h3 {
+    font-size: 24px;
+  }
 }
 
 .loading {
