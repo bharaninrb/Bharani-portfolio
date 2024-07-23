@@ -410,6 +410,12 @@ body {
   box-shadow: 0 0 0.5px 0.5px rgb(96, 96, 96);
 }
 
+@media (max-width: 768px) {
+  .background8 {
+    padding: 8px auto;
+  }
+}
+
 .projects-container {
   display: grid;
   grid-template-rows: auto;
@@ -631,7 +637,8 @@ body {
     font-size: 32px;
   }
   .link3 {
-    width: 300px;
+    width: 320px;
+    margin: 0 auto;
   }
   .container65 {
     width: 100%;
