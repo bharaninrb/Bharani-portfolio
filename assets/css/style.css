@@ -434,6 +434,14 @@ section {
   font-style: normal;
   font-weight: 300;
 }
+.name-break {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .name-break {
+    display: block !important;
+  }
+}
 
 /* This will apply when the screen size is 600px or less */
 @media screen and (max-width: 600px) {
